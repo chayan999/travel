@@ -586,9 +586,16 @@ color: rgba(112, 112, 112, 1);
 
 /* ======== NEWSLATTER SECTION START ========== */
 
-/* #news_latter{
-    padding-bottom: 128px;
-} */
+#news_latter{
+    position: relative;
+}
+
+ .news_latter_bg_shape{
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    /* transform: translate(-50%,0); */
+ }
 .news_latter_gall_wrapper{
     display: flex;
     justify-content: space-between;
